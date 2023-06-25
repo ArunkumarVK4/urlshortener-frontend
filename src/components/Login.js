@@ -50,7 +50,7 @@ export function Login() {
   
     return (
       <div className="add-user-container" style={{marginTop:"100px"}}>
-        <form onSubmit={handleSubmit} className="add-user-form">
+        <form onSubmit={handleSubmit} className="add-user-form" style={{marginBottom:"30px"}}>
           <Typography
             variant="h4"
             pb={2}
@@ -107,6 +107,9 @@ export function Login() {
             <Link to="/ForgetPassword">Forget Password?</Link>
           </div>
         </form>
+        <p>Demo Account</p>
+        <p>User name : classicworld7751@gmail.com</p>
+        <p>Password : 123456789</p>
       </div>
     );
   }
